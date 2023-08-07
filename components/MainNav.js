@@ -1,3 +1,12 @@
+/*********************************************************************************
+*  WEB422 – Assignment 6
+*  I declare that this assignment is my own work in accordance with Seneca Academic Policy.  
+*  No part of this assignment has been copied manually or electronically from any other source
+*  (including web sites) or distributed to other students.
+* 
+*  Name: Henrique Toshio Sagara Student ID: 170954218 Date: 2023-08-06
+*
+********************************************************************************/ 
 import React, { useState } from 'react';
 import { useAtom } from 'jotai';
 import { useRouter } from 'next/router';
@@ -5,7 +14,7 @@ import { Navbar, Nav, Form, FormControl, Button, NavDropdown } from 'react-boots
 import { searchHistoryAtom } from '@/store';
 import Link from 'next/link';
 import { addToHistory } from '../lib/userData';
-import { readToken, removeToken } from '@/lib/Authenticate';
+import { readToken, removeToken } from '@/lib/authenticate';
 import { useForm } from 'react-hook-form';
 
 const MainNav = () => {
