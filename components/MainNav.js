@@ -5,6 +5,8 @@
 *  (including web sites) or distributed to other students.
 * 
 *  Name: Henrique Toshio Sagara Student ID: 170954218 Date: 2023-08-06
+* 
+**  Vercel App (Deployed) Link: https://my-app-assignment6.vercel.app/
 *
 ********************************************************************************/ 
 import React, { useState } from 'react';
